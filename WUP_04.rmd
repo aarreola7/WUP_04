@@ -47,6 +47,9 @@ We wanted to find out by looking at the data what sort of data we had .We copied
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 
+
+
+
 ```{r}
 ggplot(thedata, aes(x = DEGREE, y = WORDSUM)) +
   geom_boxplot(fill = "skyblue", color = "darkblue", outlier.shape = NA) +
@@ -55,7 +58,7 @@ ggplot(thedata, aes(x = DEGREE, y = WORDSUM)) +
   theme(plot.title = element_text(hjust = 0.5)) +
   ggtitle("Fancy Box Plot")
 ```
-
+LT High school would not overlap with junuir college or graduate.Thus showing that it is very likely to be different schooling. In addition Graduate does not overlap with High school,therefore it is likely to be different.Ultimately, LT Highschool and Graduate are not only different from on another they are both different than another type of schooling, such as High School and Junior College.
 
 ### Numerical Descriptive Results
 
